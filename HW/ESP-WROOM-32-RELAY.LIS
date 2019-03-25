@@ -1,0 +1,17 @@
+AutoECO Report
+FILE-A: E:\PROJECTHOANGXU\2019\ESP32_RELAY\HW\ESP-WROOM-32-RELAY.MAX
+FILE-B: E:\PROJECTHOANGXU\2019\ESP32_RELAY\HW\ESP-WROOM-32-RELAY.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package C
+Adding net N3076267
+Deleting U2.28 from net STATUS
+Adding U2.16 to net STATUS
+Adding U2.28 to net N3076267
+Adding U2.36 to net N3076065
+Adding U2.13 to net N3076395
+Adding U2.37 to net N3075976
+Adding U2.27 to net N3076283
+Adding U2.32 to net N3076163
+Adding U2.26 to net N3076279
+*EOF*
+No errors found
