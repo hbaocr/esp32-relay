@@ -18,7 +18,8 @@
     (FALSE)
     (FALSE)
     (FALSE)
-    ( "FALSE"))
+    (FALSE)
+    (FALSE))
   (Folder "Outputs"
     (File ".\esp-wroom-32-relay.mnl"
       (Type "LAYOUT Netlist File")))
@@ -76,25 +77,19 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\esp-wroom-32-relay.dsn")
-      (Path "Design Resources" ".\esp-wroom-32-relay.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "e:\projecthoangxu\2019\esp32_relay\hw\esp-wroom-32-relay.dsn")
+      (Path "Design Resources"
+         "e:\projecthoangxu\2019\esp32_relay\hw\esp-wroom-32-relay.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Outputs")
-      (Select "Design Resources" ".\esp-wroom-32-relay.dsn" "SCHEMATIC1"
-         "PAGE1"))
+      (Select "Design Resources"
+         "e:\projecthoangxu\2019\esp32_relay\hw\esp-wroom-32-relay.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 385"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1200 104 568")
-        (Scroll "0 262")
-        (Zoom "124")
-        (Occurrence "/"))
-      (Path "E:\PROJECTHOANGXU\2019\ESP32_RELAY\HW\ESP-WROOM-32-RELAY.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 385"))
+      (Tab 0))))
