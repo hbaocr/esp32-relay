@@ -10,21 +10,33 @@
     (Netlist_TAB "5")
     (LAYOUT_Netlist_File "ESP8266D1-RELAY.MNL")
     (LAYOUT_PCB_Footprint "{PCB Footprint}")
-    ( "FALSE")
+    (FALSE)
     (LAYOUT_Units "0")
-    (NoModify))
+    (NoModify)
+    (FALSE))
   (Folder "Outputs"
     (File ".\esp8266d1-relay.mnl"
       (Type "LAYOUT Netlist File")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (D10D1
+      (FullPartName "D10D1.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\JDIODE.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (D1N4007
+      (FullPartName "D1N4007.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (C
       (FullPartName "C.Normal")
-      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0"))
     (LD1117/DD
       (FullPartName "LD1117/DD.Normal")
@@ -46,14 +58,4 @@
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 425"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1174 78 542")
-        (Scroll "40 156")
-        (Zoom "126")
-        (Occurrence "/"))
-      (Path "E:\PROJECTHOANGXU\2019\ESP32_RELAY\HW\ESP8266D1-RELAY.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Tab 0))))
