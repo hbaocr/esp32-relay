@@ -1,0 +1,40 @@
+	/*
+  	Mhicon icon font: Mhicon
+  	Creation date: 12/06/2017 06:17
+  	*/
+
+@font-face {
+  font-family: "Mhicon";
+  src: url("./Mhicon.eot");
+  src: url("./Mhicon.eot?#iefix") format("embedded-opentype"),
+       url("./Mhicon.woff") format("woff"),
+       url("./Mhicon.ttf") format("truetype"),
+       url("./Mhicon.svg#Mhicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Mhicon";
+    src: url("./Mhicon.svg#Mhicon") format("svg");
+  }
+}
+
+[class^="mhicon-"]:before, [class*=" mhicon-"]:before,
+[class^="mhicon-"]:after, [class*=" mhicon-"]:after {   
+  font-family: Mhicon;
+        font-size: 20px;
+font-style: normal;
+}
+
+.mhicon-electric-fan:before { content: "\f100"; }
+.mhicon-smart-home:before { content: "\f101"; }
+.mhicon-digital-display:before { content: "\f102"; }
+.mhicon-robot:before { content: "\f103"; }
+.mhicon-ram:before { content: "\f104"; }
+.mhicon-drill:before { content: "\f105"; }
+.mhicon-sensor:before { content: "\f106"; }
+.mhicon-technology:before { content: "\f107"; }
+.mhicon-motherboard:before { content: "\f108"; }
+.mhicon-chip:before { content: "\f109"; }

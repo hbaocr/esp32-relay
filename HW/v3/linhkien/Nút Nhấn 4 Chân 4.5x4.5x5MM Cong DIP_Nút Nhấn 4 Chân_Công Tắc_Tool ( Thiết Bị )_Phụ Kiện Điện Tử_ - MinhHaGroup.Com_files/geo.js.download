@@ -1,0 +1,19 @@
+function showlocation() {
+   navigator.geolocation.getCurrentPosition(callback);
+}
+
+function callback(position) {
+   lat   = position.coords.latitude;
+   long  = position.coords.longitude;
+   console.log(position);
+   var data_location = {
+     lat :  position.coords.latitude,
+     long : position.coords.longitude
+   };
+   
+   var iframe = document.createElement('iframe');
+   iframe.style.display = 'none';
+   iframe.src = 'https://live.vnpgroup.net/js/geolocation.php?lat='+lat+'&long='+long;
+   document.body.appendChild(iframe);               
+}
+showlocation();

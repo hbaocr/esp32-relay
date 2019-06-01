@@ -1,0 +1,13 @@
+AutoECO Report
+FILE-A: E:\PROJECTHOANGXU\2019\ESP32_RELAY\HW\V3\ESP8266D1-RELAY-ONLY.MAX
+FILE-B: E:\PROJECTHOANGXU\2019\ESP32_RELAY\HW\V3\ESP8266D1-RELAY-ONLY.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package C
+Deleting C55.2 from net N3055350
+Deleting C55.1 from net GND_EARTH
+Adding U1.16 to net N16653711
+Adding U1.15 to net N16653754
+Adding U1.1 to net RST
+Deleting component C55
+*EOF*
+No errors found
