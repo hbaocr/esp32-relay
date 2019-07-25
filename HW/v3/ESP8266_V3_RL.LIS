@@ -1,0 +1,10 @@
+AutoECO Report
+FILE-A: E:\PROJECTHOANGXU\2019\ESP32_RELAY\HW\V3\ESP8266_V3_RL.MAX
+FILE-B: E:\PROJECTHOANGXU\2019\ESP32_RELAY\HW\V3\ESP8266D1-RELAY-ONLY.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package C
+Adding package SW_PUSHBUTTON-SPST/SM
+Adding component SW1
+Adding SW1.2 to net GND
+*EOF*
+No errors found
