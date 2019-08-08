@@ -24,7 +24,7 @@
     (LAYOUT_PCB_Footprint "{PCB Footprint}")
     (FALSE)
     (LAYOUT_Units "0")
-    ( "FALSE"))
+    (FALSE))
   (Folder "Outputs"
     (File ".\esp8266d1-relay-only.mnl"
       (Type "LAYOUT Netlist File")))
@@ -37,19 +37,21 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\esp8266d1-relay-only.dsn")
+      (Path "Design Resources" ".\esp8266d1-relay-only.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"
-         "e:\projecthoangxu\2019\esp32_relay\hw\v3\esp8266d1-relay-only.dsn"))
+      (Select "Design Resources" ".\esp8266d1-relay-only.dsn" "SCHEMATIC1"
+         "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 425"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 425"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1148 52 516")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1148 52 516")
         (Scroll "0 450")
         (Zoom "100")
         (Occurrence "/"))
